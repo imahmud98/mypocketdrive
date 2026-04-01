@@ -70,15 +70,12 @@
     transform: translateY(-2px);
   }
 
-  /* Banner responsiveness */
-  .banner {
+  img {
     width: 100%;
-    max-width: 700px;  /* keeps desktop size reasonable */
-    height: auto;      /* preserves aspect ratio */
+    max-width: 700px;
     border: 4px solid #444;
     margin-top: 20px;
-    display: block;
-    object-fit: cover; /* scales nicely on all devices */
+    height: auto;
   }
 
   footer {
@@ -87,7 +84,7 @@
     color: #333;
   }
 
-  /* Responsive adjustments for small devices */
+  /* Responsive adjustments */
   @media (max-width: 600px) {
     h1 {
       font-size: 28px;
@@ -116,7 +113,7 @@
 <div class="container">
 
   <!-- GIF Banner -->
-  <img src="banner.gif" alt="Banner" class="banner">
+  <img src="banner.gif" alt="Banner">
 
   <!-- Download -->
   <div class="box">
